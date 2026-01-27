@@ -6,9 +6,10 @@ import (
 	"fmt"
 	"regexp"
 	"slack-wails/lib/structs"
-	"slack-wails/lib/utils/arrayutil"
 	"strconv"
 	"strings"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/qiwentaidi/clients"
 )
@@ -95,7 +96,7 @@ func QuakeApiSearch(o *structs.QuakeRequestOptions) *structs.QuakeResult {
 			IP:         item.IP,
 			Isp:        item.Location.ISP,
 			FaviconURL: item.Service.HTTP.Favicon.S3URL,
-			Position: arrayutil.MergePosition(structs.Position{
+			Position: MergePosition(structs.Position{
 				Province:  item.Location.ProvinceCN,
 				City:      item.Location.CityCN,
 				District:  item.Location.DistrictCN,

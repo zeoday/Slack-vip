@@ -8,7 +8,8 @@ import (
 	"os/exec"
 	"runtime"
 	"slack-wails/lib/gologger"
-	"slack-wails/lib/utils/arrayutil"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"strings"
 	"sync"

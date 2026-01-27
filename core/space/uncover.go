@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"slack-wails/lib/gologger"
 	"slack-wails/lib/structs"
-	"slack-wails/lib/utils/arrayutil"
 	"strings"
 	"time"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 )
 
 type Result struct {

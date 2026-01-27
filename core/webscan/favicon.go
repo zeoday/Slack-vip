@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"hash"
 	"net/url"
-	"slack-wails/lib/utils/arrayutil"
 	"strings"
 
 	"github.com/qiwentaidi/clients"
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/go-resty/resty/v2"

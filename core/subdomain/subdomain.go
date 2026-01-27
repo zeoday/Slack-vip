@@ -18,12 +18,13 @@ import (
 	"slack-wails/lib/gologger"
 	"slack-wails/lib/qqwry"
 	"slack-wails/lib/structs"
-	"slack-wails/lib/utils/arrayutil"
 	"slack-wails/lib/utils/netutil"
 	"strings"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/panjf2000/ants/v2"
 	"github.com/wailsapp/wails/v2/pkg/runtime"

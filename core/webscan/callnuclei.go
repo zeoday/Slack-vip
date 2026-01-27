@@ -10,12 +10,12 @@ import (
 	"runtime/debug"
 	"slack-wails/lib/gologger"
 	"slack-wails/lib/structs"
-	"slack-wails/lib/utils/arrayutil"
 	"slack-wails/lib/utils/httputil"
 	"strings"
 	"sync/atomic"
 
 	"github.com/qiwentaidi/clients"
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	nuclei "github.com/projectdiscovery/nuclei/v3/lib"
 
@@ -202,7 +202,7 @@ func findTagsFile(inputTags, templateDirs []string) []string {
 	var tempFileList []string
 	for _, inputTag := range inputTags {
 		for pocName, pocTags := range WorkFlowDB {
-			if arrayutil.ArrayContains(inputTag, pocTags) {
+			if arrayutil.ArrayContainsIgnoreCase(inputTag, pocTags) {
 				tempFileList = append(tempFileList, pocName)
 			}
 		}

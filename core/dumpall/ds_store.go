@@ -5,11 +5,12 @@ import (
 	"bytes"
 	"encoding/binary"
 	"errors"
-	"slack-wails/lib/utils/arrayutil"
 	"strings"
 	"unicode/utf16"
 	"unicode/utf8"
 	"unsafe"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/qiwentaidi/clients"
 )

@@ -26,6 +26,7 @@ require (
 	github.com/projectdiscovery/utils v0.4.19
 	github.com/qiwentaidi/clients v0.0.3
 	github.com/qiwentaidi/gonmap v0.0.1
+	github.com/qiwentaidi/utils v0.0.3
 	github.com/shirou/gopsutil/v3 v3.24.2
 	github.com/sijms/go-ora/v2 v2.8.22
 	github.com/stacktitan/smb v0.0.0-20190531122847-da9a425dceb8
@@ -246,7 +247,6 @@ require (
 	github.com/projectdiscovery/useragent v0.0.100 // indirect
 	github.com/projectdiscovery/wappalyzergo v0.2.28 // indirect
 	github.com/projectdiscovery/yamldoc-go v1.0.6 // indirect
-	github.com/qiwentaidi/utils v0.0.2 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/redis/go-redis/v9 v9.1.0 // indirect
 	github.com/refraction-networking/utls v1.6.7 // indirect

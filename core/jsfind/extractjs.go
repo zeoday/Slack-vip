@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"regexp"
 	"slack-wails/lib/gologger"
-	"slack-wails/lib/utils/arrayutil"
 	"strings"
 	"time"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/qiwentaidi/clients"
 

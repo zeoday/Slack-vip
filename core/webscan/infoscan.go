@@ -10,13 +10,14 @@ import (
 	"slack-wails/lib/gologger"
 	"slack-wails/lib/gomessage"
 	"slack-wails/lib/structs"
-	"slack-wails/lib/utils/arrayutil"
 	"slack-wails/lib/utils/httputil"
 	"slack-wails/lib/utils/randutil"
 	"strconv"
 	"strings"
 	"sync"
 	"sync/atomic"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/qiwentaidi/clients"
 

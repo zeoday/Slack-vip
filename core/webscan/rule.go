@@ -9,9 +9,10 @@ import (
 	"path/filepath"
 	"regexp"
 	"slack-wails/lib/gologger"
-	"slack-wails/lib/utils/arrayutil"
 	"strings"
 	"sync"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/Knetic/govaluate"
 	"gopkg.in/yaml.v2"

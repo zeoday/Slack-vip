@@ -7,8 +7,9 @@ import (
 	"regexp"
 	"runtime"
 	"slack-wails/lib/utils"
-	"slack-wails/lib/utils/arrayutil"
 	"strconv"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 )
 
 type Tools struct{}

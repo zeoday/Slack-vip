@@ -968,14 +968,12 @@ github.com/prometheus/procfs v0.6.0/go.mod h1:cz+aTbrPOrUb4q7XlbU9ygM+/jj0fzG6c1
 github.com/prometheus/procfs v0.7.3/go.mod h1:cz+aTbrPOrUb4q7XlbU9ygM+/jj0fzG6c1xBZuNvfVA=
 github.com/prometheus/procfs v0.8.0/go.mod h1:z7EfXMXOkbkqb9IINtpCn86r/to3BnA0uaxHdg830/4=
 github.com/prometheus/procfs v0.9.0/go.mod h1:+pB4zwohETzFnmlpe6yd2lSc+0/46IYZRB/chUwxUZY=
-github.com/qiwentaidi/clients v0.0.0-20250702115236-129e21f47c9d h1:/0EwoOw4USDMuFgAyEuAoGH51J/W5Ddmp4eS62yCpFY=
-github.com/qiwentaidi/clients v0.0.0-20250702115236-129e21f47c9d/go.mod h1:SW/Qn8/jtuMvifNju8BhRSCHkzqsYmrDNrf2f0VoaXA=
 github.com/qiwentaidi/clients v0.0.3 h1:KWza4esN4gUw8p66f33dymTgwCU2es+kiZl2wjWjgKA=
 github.com/qiwentaidi/clients v0.0.3/go.mod h1:SW/Qn8/jtuMvifNju8BhRSCHkzqsYmrDNrf2f0VoaXA=
 github.com/qiwentaidi/gonmap v0.0.1 h1:T2rVXgwdMZedmkU7aWgAk6SrTkxh/5ORmUhCDUqpds0=
 github.com/qiwentaidi/gonmap v0.0.1/go.mod h1:WEVYCSq0Vcd2lvcOYOvqMqUvbrHPrplDe8Q2NKqazb4=
-github.com/qiwentaidi/utils v0.0.2 h1:aZ4T+0LNthU6RJ/3R/c4zAbdnuT2Y4AxWF3CAFrH35g=
-github.com/qiwentaidi/utils v0.0.2/go.mod h1:f5vUD4upAFeGm/oVqSNhzZOo83ft8YXd5hRjscfKM2o=
+github.com/qiwentaidi/utils v0.0.3 h1:MVYhsXhBiH+R70I3DVonA5TSLMUxBaC8D9O61xKHb20=
+github.com/qiwentaidi/utils v0.0.3/go.mod h1:f5vUD4upAFeGm/oVqSNhzZOo83ft8YXd5hRjscfKM2o=
 github.com/rcrowley/go-metrics v0.0.0-20181016184325-3113b8401b8a/go.mod h1:bCqnVzQkZxMG4s8nGwiZ5l3QUCyqpo9Y+/ZMZ9VjZe4=
 github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 h1:N/ElC8H3+5XpJzTSTfLsJV/mx9Q9g7kxmchpfZyxgzM=
 github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475/go.mod h1:bCqnVzQkZxMG4s8nGwiZ5l3QUCyqpo9Y+/ZMZ9VjZe4=

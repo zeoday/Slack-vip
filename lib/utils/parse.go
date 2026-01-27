@@ -2,7 +2,8 @@ package utils
 
 import (
 	"net"
-	"slack-wails/lib/utils/arrayutil"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"strconv"
 	"strings"

@@ -30,7 +30,6 @@ import (
 	"slack-wails/lib/gomessage"
 	"slack-wails/lib/structs"
 	"slack-wails/lib/utils"
-	"slack-wails/lib/utils/arrayutil"
 	"slack-wails/lib/utils/fileutil"
 	"slack-wails/lib/utils/httputil"
 	"slack-wails/lib/utils/netutil"
@@ -39,6 +38,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/qiwentaidi/clients"
 	"github.com/shirou/gopsutil/v3/cpu"

@@ -386,8 +386,8 @@ func (f *File) Restart() {
 		if err := cmd.Start(); err != nil {
 			return
 		}
-		os.Exit(0)
 	}
+	os.Exit(0)
 }
 
 func (f *File) DownloadLastestClient() structs.Status {

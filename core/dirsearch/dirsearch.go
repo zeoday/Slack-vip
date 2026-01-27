@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"context"
 	"slack-wails/lib/gologger"
-	"slack-wails/lib/utils/arrayutil"
 	"slack-wails/lib/utils/httputil"
 	"strings"
 	"sync"
@@ -12,6 +11,7 @@ import (
 	"time"
 
 	"github.com/qiwentaidi/clients"
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/go-resty/resty/v2"
 	"github.com/panjf2000/ants/v2"

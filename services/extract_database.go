@@ -7,8 +7,9 @@ import (
 	"slack-wails/core/portscan"
 	"slack-wails/lib/gologger"
 	"slack-wails/lib/structs"
-	"slack-wails/lib/utils/arrayutil"
 	"time"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/wailsapp/wails/v2/pkg/runtime"
 	"go.mongodb.org/mongo-driver/bson"

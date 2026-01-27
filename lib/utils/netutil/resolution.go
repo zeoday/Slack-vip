@@ -5,8 +5,9 @@ import (
 	"net"
 	"os"
 	"slack-wails/lib/gologger"
-	"slack-wails/lib/utils/arrayutil"
 	"time"
+
+	arrayutil "github.com/qiwentaidi/utils/array"
 
 	"github.com/miekg/dns"
 	"gopkg.in/yaml.v2"
